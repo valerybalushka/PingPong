@@ -74,6 +74,8 @@ void APingPongBall::HandleOnBallBounce(const FHitResult& OutSweepHitResult)
 	{
 		return;
 	}
+
+	BallSpeed += 250.0f;
 	
 	FRotator ReflectRotation;
 	
